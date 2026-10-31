@@ -1,0 +1,72 @@
+/* Warm daylight shell; the game world deliberately has its own night palette. */
+.greeno {
+  --lime: #278c72;
+  --mint: #337f6b;
+  --paper: #f4f1eb;
+  --ink: #33444b;
+  --muted: #647479;
+  --raised: 7px 7px 18px #dcd7ce99, -7px -7px 18px #ffffffd9;
+  --pressed: inset 3px 3px 7px #d6d3cb99, inset -3px -3px 7px #fff;
+  color: var(--ink);
+  background: var(--paper);
+  color-scheme: light;
+}
+.gr-header { background: transparent; border-color: #dfdbd2; }
+.gr-brand { color: #2c6658; }
+.gr-brand-sub, .gr-header nav { color: #65756f; }
+.gr-demo { color: #477766; border: 1px solid #ffffffd9; background: #efeee6; box-shadow: 3px 3px 9px #dad7ce, -3px -3px 9px #fff; }
+.gr-demo i, .gr-eyebrow>span { background: #409a7c; }
+.gr-world { background: #101b39; border: 1px solid #e9e6ef; border-radius: 28px; box-shadow: 10px 12px 28px #29344c26, -6px -6px 18px #fff, inset 0 0 0 1px #6c78b333; }
+.gr-world-top { color: #a5b3d6; }
+.gr-world-top i { color: #737fa8; }
+.gr-live { color: #8be0d6; }
+.gr-world-caption { color: #93a0c3; }
+.gr-scene-actions button { color: #d2def8; background: linear-gradient(145deg,#2c3b60,#1a284b); border: 1px solid #63749c66; border-radius: 12px; box-shadow: 4px 4px 9px #07102766, inset 1px 1px 1px #a2b3e333; }
+.gr-scene-actions button:hover { background: #34466e; }
+.gr-eyebrow { color: #4e7b6c; }
+.gr-intro h1 { color: #2e4248; }
+.gr-intro h1 em { color: #2e8b76; }
+.gr-spark { color: #b89452; }
+.gr-intro>p, .gr-card p { color: #637175; }
+.gr-primary { color: #fff; background: linear-gradient(145deg,#409e86,#26806d); border: 1px solid #5da892; border-radius: 16px; box-shadow: 5px 5px 12px #317f6530, inset 1px 2px 2px #c8fff14d, inset -2px -3px 3px #16544444; }
+.gr-primary:hover { background: linear-gradient(145deg,#4cae94,#2d8e78); }
+.gr-primary:active { transform: translateY(1px); box-shadow: inset 2px 2px 5px #185a5155; }
+.greeno button:focus-visible, .greeno a:focus-visible, .greeno input:focus-visible, .greeno select:focus-visible { outline-color: #4a83a0; }
+.gr-small { color: #727c79; }
+.gr-guide p { color: #748079; }
+.gr-guide b { color: #4e7064; }
+.gr-bot-icon { color: #4c9283; background: #efede6; border: 1px solid #fff; border-radius: 16px; box-shadow: var(--raised); }
+.gr-panel { scrollbar-color: #c9cbc4 transparent; }
+.gr-card { background: linear-gradient(145deg,#fdfbf6,#f0ede6); border: 1px solid #fff; border-radius: 24px; box-shadow: var(--raised), inset 1px 1px 0 #fff; }
+.gr-card-heading>span { color: #648178; }
+.gr-card h2 { color: #354a50; }
+.gr-card .gr-options button { color: #4a5d62; background: #f3f0e9; border: 1px solid #fffdf9; border-radius: 16px; box-shadow: 4px 4px 9px #ddd8cf, -4px -4px 9px #fff; transition: box-shadow 180ms, background 180ms, border-color 180ms; }
+.gr-card .gr-options button.selected { background: #e8eee8; border-color: #9abcb0; box-shadow: var(--pressed); }
+.gr-card .gr-options button:hover { border-color: #b8cbc4; }
+.gr-card .gr-options small { color: #6a7977; }
+.gr-slider b { color: #327f6c; }
+.gr-slider input { accent-color: #368b76; }
+.gr-budget { color: #596f69; background: #e9e9df; border: 1px solid #ffffffb3; box-shadow: var(--pressed); }
+.gr-card .gr-results>div { background: #eeeae3; border: 1px solid #faf8f2; border-radius: 17px; box-shadow: var(--pressed); }
+.gr-card .gr-results b { color: #397d70; }
+.gr-card .gr-results span { color: #6b7a79; }
+.gr-card progress { appearance: none; background: #e3e0d7; border: 0; border-radius: 12px; overflow: hidden; }
+.gr-card progress::-webkit-progress-bar { background: #e3e0d7; box-shadow: var(--pressed); }
+.gr-card progress::-webkit-progress-value { background: linear-gradient(90deg,#7bcbb2,#388a75); border-radius: 12px; box-shadow: inset 0 2px 2px #ffffff60; }
+.gr-card progress::-moz-progress-bar { background: #449a81; border-radius: 12px; }
+.gr-card .gr-text-button { color: #637c76; }
+.gr-comparison { border-color: #d9dcd3; }
+.gr-card .gr-comparison select { color: #586e6b; background: #eeece5; border: 1px solid #fff; border-radius: 12px; box-shadow: var(--pressed); }
+.gr-route .gr-section-title>span { color: #7b847d; }
+.gr-stations li { background: #f0ede7; border: 1px solid #ffffffb3; border-radius: 17px; box-shadow: 4px 4px 10px #dcd8d0, -4px -4px 10px #fff; }
+.gr-stations li.active { background: #e5ede6; border-color: #96b6a6; box-shadow: var(--pressed); }
+.gr-stations li.done { background: #ebeee5; border-color: #c4d3c3; }
+.gr-stations button { color: #5d706b; }
+.gr-stations button>span { color: #7a8c86; background: #e5e4da; border: 1px solid #ffffffa6; box-shadow: var(--pressed); }
+.gr-stations .active button>span, .gr-stations .done button>span { color: #fff; background: linear-gradient(145deg,#70aa95,#418976); box-shadow: inset 1px 1px 2px #c8ffdf88, 2px 2px 5px #4b8b7433; }
+.gr-stations small { color: #728079; }
+.gr-footer { color: #728079; border-color: #dfdbd2; }
+.gr-footer>span { color: #648274; }
+.gr-footer>span span { color: #a38c59; }
+.gr-travel, .gr-loading { color: #779c9a; }
+@media(max-width:700px) { .gr-world { border-radius: 20px; } .gr-card { border-radius: 20px; } .gr-card .gr-options button { border-radius: 13px; } }

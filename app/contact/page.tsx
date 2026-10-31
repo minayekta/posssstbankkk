@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowUpLeft, Globe2, MapPin, MessageCircle } from "lucide-react";
+import { Breadcrumb, PageIntro, SiteShell } from "@/components/site-shell";
+
+export const metadata: Metadata={title:"ارتباط با ما"};
+export default function ContactPage(){return <SiteShell><Breadcrumb items={[{label:"ارتباط با ما"}]}/><PageIntro eyebrow="در ارتباط بمانیم" title="راه ارتباط، روشن و نزدیک" description="مسیرهای ارتباطی و پیگیری درخواست‌ها در این بخش گردآوری می‌شود. اطلاعات تماس رسمی پس از تأیید بانک درج خواهد شد."/><section className="page-section page-tone"><div className="container simple-page-grid" style={{paddingTop:35}}><div className="info-panel"><MessageCircle color="#0a754f"/><h3>شکایات و درخواست‌ها</h3><p>ثبت و پیگیری موضوع خود را از صفحه معرفی این خدمت آغاز کنید.</p><Link href="/services/complaints" className="text-link">مشاهده مسیر </Link></div><div className="info-panel"><MapPin color="#0a754f"/><h3>مراجعه حضوری</h3><p>صفحه شعب و باجه‌ها مسیر جستجوی مکان‌های خدمت‌رسانی را معرفی می‌کند.</p><Link href="/branches" className="text-link">شعب و باجه‌ها </Link></div><div className="info-panel"><Globe2 color="#0a754f"/><h3>سایت رسمی فعلی</h3><p>برای اطلاعات رسمی و به‌روز، از وب‌سایت کنونی بانک استفاده کنید.</p><a href="https://www.postbank.ir/" target="_blank" rel="noopener noreferrer" className="text-link">باز کردن سایت رسمی </a></div></div></section></SiteShell>}

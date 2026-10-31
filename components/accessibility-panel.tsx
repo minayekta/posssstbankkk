@@ -1,0 +1,7 @@
+"use client";
+import {useEffect,useState} from 'react';
+import {Minus,Plus,Contrast,RotateCcw,X} from 'lucide-react';
+export function AccessibilityPanel({close}:{close:()=>void}){
+const [scale,setScale]=useState(100);const [contrast,setContrast]=useState(false);
+useEffect(()=>{document.documentElement.style.setProperty('--a11y-scale',String(scale/100));document.documentElement.classList.toggle('access-contrast',contrast);return ()=>{document.documentElement.style.removeProperty('--a11y-scale');document.documentElement.classList.remove('access-contrast')}},[scale,contrast]);
+return <div className="access-panel" role="dialog" aria-label="تنظیمات دسترس‌پذیری"><div className="access-panel-title"><strong>دسترس‌پذیری</strong><button type="button" onClick={close} aria-label="بستن"><X size={19}/></button></div><p>اندازه متن و کنتراست نمایش را تنظیم کنید.</p><div className="access-controls"><button type="button" aria-label="کوچک کردن متن" onClick={()=>setScale(v=>Math.max(90,v-10))}><Minus size={18}/></button><span>{scale}٪</span><button type="button" aria-label="بزرگ کردن متن" onClick={()=>setScale(v=>Math.min(130,v+10))}><Plus size={18}/></button></div><button type="button" className="access-wide" aria-pressed={contrast} onClick={()=>setContrast(v=>!v)}><Contrast size={18}/> کنتراست بیشتر</button><button type="button" className="access-wide" onClick={()=>{setScale(100);setContrast(false)}}><RotateCcw size={17}/> بازنشانی</button></div>}

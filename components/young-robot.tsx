@@ -1,0 +1,4 @@
+"use client";
+import {useState} from 'react';
+import {Smile, Sparkles} from 'lucide-react';
+export function YoungRobot(){const [happy,setHappy]=useState(true);return <button type="button" className={`young-bot ${happy?'is-happy':'is-surprised'}`} onClick={()=>setHappy(v=>!v)} aria-label="تغییر حالت ربات نوجوانان"><span className="young-bot-antenna"><Sparkles size={17}/></span><span className="young-bot-head"><span className="young-bot-hair"/><span className="young-bot-eyes"><i/><i/></span><span className="young-bot-mouth">{happy?'◡':'o'}</span><span className="young-bot-cheeks"/></span><span className="young-bot-body"><Smile size={28}/></span><span className="young-bot-arm arm-left"/><span className="young-bot-arm arm-right"/><span className="young-bot-feet"><i/><i/></span><span className="young-bot-hint">روی من بزن!</span></button>}

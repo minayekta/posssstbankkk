@@ -1,0 +1,254 @@
+[
+  {
+    "id": "user-exhibition",
+    "title": "روایت تصویری از نمایشگاه و گفت‌وگوهای تخصصی",
+    "category": "نمایشگاه‌ها و رویدادها",
+    "date": "",
+    "cover": "/images/gallery/event-expo.jpg",
+    "images": [
+      "/images/gallery/event-expo.jpg",
+      "/images/gallery/event-conversation.jpg"
+    ],
+    "note": "عکس‌های ارسالی از حضور و گفت‌وگو در فضای نمایشگاهی؛ مشخصات دقیق رویداد نیازمند تأیید است."
+  },
+  {
+    "id": "user-meetings",
+    "title": "نشست‌ها و دیدارهای مدیران بانک",
+    "category": "نشست‌ها و مدیران",
+    "date": "",
+    "cover": "/images/gallery/event-office.jpg",
+    "images": [
+      "/images/gallery/event-office.jpg",
+      "/images/gallery/event-meeting.jpg",
+      "/images/gallery/event-press.jpg"
+    ],
+    "note": "گزیده تصاویر ارسالی از نشست‌ها و دیدارهای مختلف؛ تصاویر لزوماً به یک مراسم تعلق ندارند."
+  },
+  {
+    "id": "user-interview",
+    "title": "قاب‌هایی از مدیران و فضای کاری",
+    "category": "آرشیو تصویری",
+    "date": "",
+    "cover": "/images/gallery/event-portrait.jpg",
+    "images": [
+      "/images/gallery/event-portrait.jpg"
+    ],
+    "note": "تصویر ارسالی برای نمایش گالری؛ عنوان، تاریخ و هویت فرد در دست تأیید است."
+  },
+  {
+    "id": "archive-1",
+    "title": "مطالبات غیرجاری",
+    "category": "آرشیو تصویری",
+    "date": "2023/10/31",
+    "cover": "https://www.postbank.ir/documents/20121/0/51d2OHNs.jpg/f308e8d0-c520-a988-28a2-e5ac66a5784c?version=1.0&t=1698749104288&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/0/51d2OHNs.jpg/f308e8d0-c520-a988-28a2-e5ac66a5784c?version=1.0&t=1698749104288&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/7777995",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-2",
+    "title": "نمایشگاه دفاع مقدس",
+    "category": "نمایشگاه‌ها و رویدادها",
+    "date": "2020/09/20",
+    "cover": "https://www.postbank.ir/documents/20121/889422/0.576184385252018File1.jpg/cb0ee6e4-1b69-72a3-fb02-6d39ebad56f6?version=1.0&t=1624127671242&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/889422/0.576184385252018File1.jpg/cb0ee6e4-1b69-72a3-fb02-6d39ebad56f6?version=1.0&t=1624127671242&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/889418",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-3",
+    "title": "تمهیدات بانک مرکزی برای کاهش مراجعات حضور مشتریان به شعب",
+    "category": "آرشیو تصویری",
+    "date": "2020/03/18",
+    "cover": "https://www.postbank.ir/documents/20121/891448/0.09807354267988899File1.jpg/107b9c03-ba07-bf3c-b060-a35ea6ed5aeb?version=1.0&t=1624127701692&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/891448/0.09807354267988899File1.jpg/107b9c03-ba07-bf3c-b060-a35ea6ed5aeb?version=1.0&t=1624127701692&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/891447",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-4",
+    "title": "نمایشگاه مجازی عکس انقلاب اسلامی",
+    "category": "نمایشگاه‌ها و رویدادها",
+    "date": "2020/02/10",
+    "cover": "https://www.postbank.ir/documents/20121/890717/0.3570163238827253File1.jpg/c85abed5-cb3b-6851-059a-fdc8190cb739?version=1.0&t=1624127688973&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/890717/0.3570163238827253File1.jpg/c85abed5-cb3b-6851-059a-fdc8190cb739?version=1.0&t=1624127688973&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/890714",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-5",
+    "title": "نشست خبری دکتر شیری مدیرعامل با رسانه ها",
+    "category": "نشست‌ها و مدیران",
+    "date": "2019/12/30",
+    "cover": "https://www.postbank.ir/documents/20121/890546/0.711943476189903File4.jpg/f3c2446d-4a36-a9f5-c10e-f1a47e2b16dd?version=1.0&t=1624127686046&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/890546/0.711943476189903File4.jpg/f3c2446d-4a36-a9f5-c10e-f1a47e2b16dd?version=1.0&t=1624127686046&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/890543",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-6",
+    "title": "بازدید دکتر شیری از پست بانک استان آذربایجان شرقی- تیرماه 98",
+    "category": "آرشیو تصویری",
+    "date": "2019/06/30",
+    "cover": "https://www.postbank.ir/documents/20121/889019/0.4838915604780215File3.jpeg/0cb00cf2-3667-036a-f74a-8e9e95dd5f5f?version=1.0&t=1624127665018&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/889019/0.4838915604780215File3.jpeg/0cb00cf2-3667-036a-f74a-8e9e95dd5f5f?version=1.0&t=1624127665018&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/889018",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-7",
+    "title": "گردهمائی مدیران پست بانک ایران - یازدهم اردیبهشت ماه1398",
+    "category": "نشست‌ها و مدیران",
+    "date": "2019/05/01",
+    "cover": "https://www.postbank.ir/documents/20121/888356/0.5228422045454356File1.jpg/f0581337-d8af-8a4a-41b8-e7f83a07f109?version=1.0&t=1624127657047&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/888356/0.5228422045454356File1.jpg/f0581337-d8af-8a4a-41b8-e7f83a07f109?version=1.0&t=1624127657047&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/888355",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-8",
+    "title": "مراسم جشن تکلیف فرزندان بانک - هشتم اسفندماه 97",
+    "category": "مناسبت‌ها و مسئولیت اجتماعی",
+    "date": "2019/03/02",
+    "cover": "https://www.postbank.ir/documents/20121/856359/0.21340395980414728File1.jpg/79dab433-3c42-ac06-648a-5619769aff49?version=1.0&t=1624127274830&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/856359/0.21340395980414728File1.jpg/79dab433-3c42-ac06-648a-5619769aff49?version=1.0&t=1624127274830&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/856358",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-9",
+    "title": "مراسم جشن تکلیف فرزندان کارکنان بانک - هشتم اسفندماه 1397",
+    "category": "مناسبت‌ها و مسئولیت اجتماعی",
+    "date": "2019/03/02",
+    "cover": "https://www.postbank.ir/documents/20121/856664/0.8843034641868471File3.jpg/44592d12-eadf-1e3f-43bd-6b80b3dca8dd?version=1.0&t=1624127278676&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/856664/0.8843034641868471File3.jpg/44592d12-eadf-1e3f-43bd-6b80b3dca8dd?version=1.0&t=1624127278676&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/856663",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-10",
+    "title": "استقبال پست بانک ایران از راهپیمایان یوم الله 22بهمن-1397",
+    "category": "مناسبت‌ها و مسئولیت اجتماعی",
+    "date": "2019/02/13",
+    "cover": "https://www.postbank.ir/documents/20121/854773/0.5776146557644442File3.JPG/57cc1a30-bc44-3eff-6372-c3a23a3f9f61?version=1.0&t=1624127243205&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/854773/0.5776146557644442File3.JPG/57cc1a30-bc44-3eff-6372-c3a23a3f9f61?version=1.0&t=1624127243205&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/854772",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-11",
+    "title": "مسابقه نقاشی کودکان با موضوع نماز",
+    "category": "مناسبت‌ها و مسئولیت اجتماعی",
+    "date": "2019/02/13",
+    "cover": "https://www.postbank.ir/documents/20121/856302/0.8049191106248865File3.jpg/279faef0-ca8c-be48-b994-3019ad4eea57?version=1.0&t=1624127273778&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/856302/0.8049191106248865File3.jpg/279faef0-ca8c-be48-b994-3019ad4eea57?version=1.0&t=1624127273778&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/856300",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-12",
+    "title": "مراسم رونمایی و افتتاح پروژه ها و طرحهای بانک به مناسبت چهلمین سالگرد فجر انقلاب- 16 بهمن97",
+    "category": "نمایشگاه‌ها و رویدادها",
+    "date": "2019/02/05",
+    "cover": "https://www.postbank.ir/documents/20121/854267/0.7587615221060885File1.JPG/2df01508-1f9e-eb9f-b7c5-036aba6d91f4?version=1.0&t=1624127234638&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/854267/0.7587615221060885File1.JPG/2df01508-1f9e-eb9f-b7c5-036aba6d91f4?version=1.0&t=1624127234638&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/854266",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-13",
+    "title": "گزارش تصویری نهمین گردهمائی رؤسای شعب موفق بانک های کشور- 11 بهمن ماه97",
+    "category": "نشست‌ها و مدیران",
+    "date": "2019/02/03",
+    "cover": "https://www.postbank.ir/documents/20121/853918/0.6533743053205987File1.JPG/a743ddf6-a58a-b07c-7a6f-c02b0899a2f5?version=1.0&t=1624127229498&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/853918/0.6533743053205987File1.JPG/a743ddf6-a58a-b07c-7a6f-c02b0899a2f5?version=1.0&t=1624127229498&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/853917",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-14",
+    "title": "گزارش تصویری نهمین گردهمائی رؤسای شعب موفق بانک های کشور- 11 بهمن ماه97",
+    "category": "نشست‌ها و مدیران",
+    "date": "2019/02/03",
+    "cover": "https://www.postbank.ir/documents/20121/854115/0.06702293109335233File1.JPG/30c54279-68fc-42db-26de-5fead7c4b094?version=1.0&t=1624127232657&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/854115/0.06702293109335233File1.JPG/30c54279-68fc-42db-26de-5fead7c4b094?version=1.0&t=1624127232657&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/854114",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-15",
+    "title": "نهمین گردهمائی رؤسای شعب موفق بانک های کشور -11 بهمن ماه 97",
+    "category": "نشست‌ها و مدیران",
+    "date": "2019/02/02",
+    "cover": "https://www.postbank.ir/documents/20121/853733/0.37482316141536176File3.JPG/a79db83c-41b3-d497-bad6-b510825ec802?version=1.0&t=1624127226704&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/853733/0.37482316141536176File3.JPG/a79db83c-41b3-d497-bad6-b510825ec802?version=1.0&t=1624127226704&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/853728",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-16",
+    "title": "گزارش تصویری نهمین گردهمائی رؤسای شعب موفق بانک های کشور- 11 بهمن ماه97",
+    "category": "نشست‌ها و مدیران",
+    "date": "2019/02/02",
+    "cover": "https://www.postbank.ir/documents/20121/857007/0.12188764672676655File1.JPG/4aaef1dc-edf0-9b67-f8c5-fbeb7686bdc2?version=1.0&t=1624127283010&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/857007/0.12188764672676655File1.JPG/4aaef1dc-edf0-9b67-f8c5-fbeb7686bdc2?version=1.0&t=1624127283010&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/857006",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-17",
+    "title": "مجمع عمومی 96 پست بانک (1397/5/30)",
+    "category": "نشست‌ها و مدیران",
+    "date": "2018/09/02",
+    "cover": "https://www.postbank.ir/documents/20121/850293/0.6656465316990082File1.JPG/8f00bf92-e776-3b3f-a995-df330cbaccfc?version=1.0&t=1624127184214&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/850293/0.6656465316990082File1.JPG/8f00bf92-e776-3b3f-a995-df330cbaccfc?version=1.0&t=1624127184214&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/850292",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  },
+  {
+    "id": "archive-18",
+    "title": "گزارش تصویری حضور بانک در سومین نمایشگاه توانمندیهای روستایی",
+    "category": "نمایشگاه‌ها و رویدادها",
+    "date": "2018/03/09",
+    "cover": "https://www.postbank.ir/documents/20121/885096/0.4652127208302056File1.JPG/ff0b569b-ae83-ff1b-04aa-f6751e724e4b?version=1.0&t=1624127615989&imageThumbnail=1",
+    "images": [
+      "https://www.postbank.ir/documents/20121/885096/0.4652127208302056File1.JPG/ff0b569b-ae83-ff1b-04aa-f6751e724e4b?version=1.0&t=1624127615989&imageThumbnail=1"
+    ],
+    "source": "https://www.postbank.ir/web/guest/gallery/-/dt/img/885094",
+    "note": "تصویر جلد آلبوم از آرشیو رسمی؛ برای مشاهده تصاویر کامل به منبع مراجعه کنید."
+  }
+]

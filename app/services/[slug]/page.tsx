@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowLeft, ArrowUpLeft } from "lucide-react";
+import { notFound } from "next/navigation";
+import { ContentIcon } from "@/components/icons";
+import { Breadcrumb, DemoNote, Eyebrow, ServiceCard, SiteShell } from "@/components/site-shell";
+import { services } from "@/lib/content";
+
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;return {title:services.find(item=>item.slug===slug)?.title??"خدمات"}}
+export default async function ServiceDetail({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const item=services.find(item=>item.slug===slug);if(!item)notFound();const related=services.filter(other=>other.slug!==slug).slice(0,3);return <SiteShell><Breadcrumb items={[{label:"خدمات",href:"/services"},{label:item.title}]}/><div className="container detail-top"><div><Eyebrow>{item.category}</Eyebrow><h1>{item.title}</h1><p>{item.summary}</p><Link href="#service-guide" className="button button-primary">آشنایی با مسیر </Link></div><div className="detail-illustration"><span><ContentIcon name={item.icon} size={62}/></span></div></div><div className="container detail-body" id="service-guide"><article><Eyebrow>درباره خدمت</Eyebrow><h2>ساده‌تر به مقصد برسید</h2><p>{item.description}</p><p>در این نسخه نمایشی، مسیر معرفی و جایگاه اطلاعات خدمت طراحی شده است. فرم‌ها و عملیات بانکی پس از تأیید محتوا و اتصال به سرویس‌های رسمی فعال می‌شوند.</p><h2>خدمات مرتبط</h2><div className="content-grid">{related.map((other,index)=><ServiceCard item={other} index={index} key={other.slug}/>)}</div></article><aside className="detail-panel"><h3>مسیر انجام خدمت</h3><ul><li>اطلاعات و شرایط را بررسی کنید</li><li>وارد مسیر خدمت شوید</li><li>نتیجه را در سامانه رسمی پیگیری کنید</li></ul><Link href="/services" className="button button-primary">مرور خدمات <ArrowLeft size={16}/></Link><small>این دمو تراکنش بانکی انجام نمی‌دهد.</small></aside></div><div className="container"><DemoNote/></div></SiteShell>}

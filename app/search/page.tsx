@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowUpLeft } from "lucide-react";
+import { Breadcrumb, PageIntro, SiteShell } from "@/components/site-shell";
+import { news, products, services } from "@/lib/content";
+import { legacyGroups } from "@/lib/legacy-catalog";
+
+export const metadata: Metadata={title:"جستجو"};
+export default async function SearchPage({searchParams}:{searchParams:Promise<{q?:string}>}){const {q=""}=await searchParams;const query=q.trim();const results=[...legacyGroups.flatMap(g=>[{title:g.title,summary:g.desc,href:`/services/category/${g.slug}`,type:"دسته خدمات"},...g.items.map(item=>({title:item,summary:g.title,href:`/services/category/${g.slug}`,type:"راهنمای خدمت"}))]),...services.map(i=>({title:i.title,summary:i.summary,href:`/services/${i.slug}`,type:"خدمت"})),...products.map(i=>({title:i.title,summary:i.summary,href:`/products/${i.slug}`,type:"محصول"})),...news.map(i=>({title:i.title,summary:i.summary,href:`/news/${i.slug}`,type:"خبر"}))].filter(i=>query&&`${i.title} ${i.summary}`.includes(query));return <SiteShell><Breadcrumb items={[{label:"جستجو"}]}/><PageIntro eyebrow="جستجوی سایت" title={query?`نتایج «${query}»`:"چه چیزی می‌خواهید پیدا کنید؟"} description={query?`${results.length} مورد در محتوای نمونه این دمو پیدا شد.`:"از دکمه جستجو در بالای صفحه برای یافتن خدمات، محصولات و خبرها استفاده کنید."}/><section className="page-section page-tone"><div className="container tender-list" style={{paddingTop:35}}>{results.length?results.map(item=><Link key={item.href} href={item.href} className="tender-item"><div><span>{item.type}</span><h3>{item.title}</h3><p>{item.summary}</p></div></Link>):<div className="empty-state">{query?"موردی پیدا نشد. عبارت دیگری را امتحان کنید.":"برای شروع، عبارت موردنظر را جستجو کنید."}</div>}</div></section></SiteShell>}
